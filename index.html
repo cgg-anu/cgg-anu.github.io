@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title src="">ANU Computational Genemics Group</title>
+<link rel="short icon"  href="img/logo.ico"></link>
+<link rel="shortcut icon" href="img/logo.ico" type="image/x-icon">
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="description" content="" />
+<meta name="author" content="" />
+<!-- css -->
+<link href="css/bootstrap.min.css" rel="stylesheet" />
+<link href="css/fancybox/jquery.fancybox.css" rel="stylesheet"> 
+<link href="css/flexslider.css" rel="stylesheet" /> 
+<link href="css/style.css" rel="stylesheet" />
+ 
+ <!-- Add -->
+<!-- <link href="css/slider.css" rel="stylesheet" type="text/css" /> -->
+<!-- LayerSlider stylesheet -->
+<link rel="stylesheet" href="layerslider/css/layerslider.css" type="text/css">
+<script src="layerslider/js/jquery.js" type="text/javascript"></script>
+<script src="layerslider/js/greensock.js" type="text/javascript"></script>
+<script src="layerslider/js/layerslider.transitions.js" type="text/javascript"></script>
+<script src="layerslider/js/layerslider.kreaturamedia.jquery.js" type="text/javascript"></script>
+
+<!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+<!--[if lt IE 9]>
+	  <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+
+</head>
+<body>
+<div id="wrapper" class="home-page">
+<div class="topbar">
+  <div class="container">
+	<div class="row">
+	  <div class="col-md-12">
+		<p class="pull-left hidden-xs" style="font-size:10pt">Welcome to ANU Computational Genemics Group!</p>
+	  </div>
+	</div>
+  </div>
+</div>
+	<!-- start header -->
+	<header>
+		<div class="navbar navbar-default navbar-static-top">
+			<div class="container">
+				<div class="navbar-header">
+					<a class="navbar-brand" href="index.html"><img src="img/logo_small.png" alt="logo" style="height:310%" /></a>
+				</div>
+				<div class="navbar-collapse collapse ">
+					<ul class="nav navbar-nav">
+						<li class="active"><a href="index.html">Home</a></li> 
+						<li><a href="people.html">People</a></li> 
+						<li><a href="publication.html">Publications</a></li>
+						<li><a href="software.html">Software</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</header>
+	<!-- end header -->
+
+	<section id="banner">
+
+		<div id="layerslider" style="width:100%;height:400px;">
+			<div class="ls-slide" data-ls="transition2d:1;timeshift:-1000;">
+				<img src="img/slides/anu_1.jpg" class="ls-bg" alt="Slide background"/>
+			</div>
+
+			<div class="ls-slide" data-ls="transition2d:1;timeshift:-1000;">
+				<img src="img/slides/anu_2.jpg" class="ls-bg" alt="Slide background"/>
+			</div>
+
+			<div class="ls-slide" data-ls="transition2d:1;timeshift:-1000;">
+				<img src="img/slides/anu_3.jpg" class="ls-bg" alt="Slide background"/>
+			</div>
+
+			<div class="ls-slide" data-ls="transition2d:1;timeshift:-1000;">
+				<img src="img/slides/anu_4.jpg" class="ls-bg" alt="Slide background"/>
+			</div>
+
+		</div>
+ 
+	</section> 
+	
+	<section id="content">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<div class="aligncenter">
+					<img src="img/logo_.jpg" style="height:200px"/>
+				</div>
+			</div>
+		</div>
+	</section>
+	<div style="margin-top:-30px"></div>
+	<!-- <section class="section-padding gray-bg"> -->
+	<section class="section-padding">
+	<div class="about home-about">
+		<div class="container">
+			<div class="row">
+				<hr/>
+				<div class="col-md-1"></div>
+				<div class="col-md-10">
+					<div class="block-heading-two">
+						<h3><span>Latest News: </span></h3>
+					</div>
+					<div class="panel-group" id="accordion-alt3">
+						<div class="panel">
+							<div class="panel-heading">
+								<h4 class="panel-title">
+									<a data-toggle="collapse" data-parent="#accordion-alt3" href="#collapseThree-alt3">
+										<i class="fa fa-angle-right"></i> [Mar. 2020] Congratuations! Anuradha's work "MetaBCC-LR" was accpeted by ISMB2020.
+									</a>
+								</h4>
+							</div>
+							<div id="collapseThree-alt3" class="panel-collapse collapse">
+								<div class="panel-body">
+									<p>
+										<strong>Motivation:</strong> Metagenomics studies have provided key insights into the composition and structure of microbial communities found in different environments. Among the techniques used to analyze metagenomic data, binning is considered a crucial step to characterise the different species of microorganisms present. The use of short-read data in most binning tools poses several limitations, such as insufficient species-specific signal, and the emergence of long-read sequencing technologies offers us opportunities to surmount them. However, most current metagenomic binning tools have been developed for short reads. The few tools that can process long reads either do not scale with increasing input size or require a database with reference genomes that are often unknown. In this paper, we presentMetaBCC-LR, a scalable reference-free binning method which clusters long reads directly based on their k-mer coverage histograms and oligonucleotide composition.<br>
+										<strong>Results:</strong> We evaluate MetaBCC-LR on multiple simulated and real metagenomic long-read datasets with varying coverages and error rates. Our experiments demonstrate that MetaBCC-LR substantially outperforms state-of-the-art reference-free binning tools, achieving∼13% improvement in F1-score and∼30% improvement in ARI compared to the best previous tools. Moreover, we show that using MetaBCC-LR before long read assembly helps to enhance the assembly quality while significantly reducing the assembly cost in terms of time and memory usage. The efficiency and accuracy of MetaBCC-LR pave the way for more effective long-read based metagenomics analyses to support a wide range of applications.<br>
+										<strong>Availability:</strong> The source code is freely available at: <a href="https://github.com/anuradhawick/MetaBCC-LR">https://github.com/anuradhawick/MetaBCC-LR</a>.
+									</p>
+									</p>
+								</div>
+							</div>
+						</div>
+
+						<div class="panel">
+							<div class="panel-heading">
+								<h4 class="panel-title">
+									<a data-toggle="collapse" data-parent="#accordion-alt3" href="#collapseTwo-alt3">
+										<i class="fa fa-angle-right"></i> [Mar. 2020] Congratuations! Vijini's work "GraphBin" was accpeted by Bioinformatics.
+									</a>
+								</h4>
+							</div>
+							<div id="collapseTwo-alt3" class="panel-collapse collapse">
+								<div class="panel-body">
+									<p><strong>Motivation:</strong> The field of metagenomics has provided valuable insights into the structure, diversity and ecology within microbial communities. One key step in metagenomics analysis is to assemble reads into longer contigs which are then binned into groups of contigs that belong to different species present in the metagenomic sample. Binning of contigs plays an important role in metagenomics and most available binning algorithms bin contigs using genomic features such as oligonucleotide/k-mer composition and contig coverage. As metagenomic contigs are derived from the assembly process, they are output from the underlying assembly graph which contains valuable connectivity information between contigs that can be used for binning.<br>
+									<strong>Results:</strong> We propose GraphBin, a new binning method that makes use of the assembly graph and applies a label propagation algorithm to refine the binning result of existing tools. We show that GraphBin can make use of the assembly graphs constructed from both the de Bruijn graph and the overlap-layout-consensus approach. Moreover, we demonstrate improved experimental results from GraphBin in terms of identifying mis-binned contigs and binning of contigs discarded by existing binning tools. To the best of our knowledge, this is the first time that the information from the assembly graph has been used in a tool for the binning of metagenomic contigs.<br>
+									<strong>Availability:</strong> The source code of GraphBin is available at <a href="https://github.com/Vini2/GraphBin">https://github.com/Vini2/GraphBin</a>.
+								</p>
+								</div>
+							</div>
+						</div>
+
+						<div class="panel">	
+							<div class="panel-heading">
+								<h4 class="panel-title">
+									<a data-toggle="collapse" data-parent="#accordion-alt3" href="#collapseOne-alt3">
+										<i class="fa fa-angle-right"></i> [Oct. 2019] Congratuations! Yanbo's work "DCHap" was accpeted by APBC2020.
+									</a>
+								</h4>
+							</div>
+							<div id="collapseOne-alt3" class="panel-collapse collapse">
+								<!-- Panel body -->
+								<div class="panel-body">
+									<p>
+									The development of DNA sequencing technologies makes it possible to obtain reads originated from both copies of a chromosome (two parental chromosomes, or haplotypes) of a single individual. Reconstruction of both haplotypes (i.e. haplotype phasing) plays a crucial role in genetic analysis and provides relationship information between genetic variation and disease susceptibility. With the emerging third-generation sequencing technologies, most existing approaches for haplotype phasing suffer from performance issues to handle long and error-prone reads. We develop a divide-and-conquer algorithm, DCHap, to phase haplotypes using third-generation reads. We benchmark DCHap against three state-of-the-art phasing tools on both PacBio SMRT data and ONT Nanopore data. The experimental results show that DCHap generates more accurate or comparable results (measured by the switch errors) while being scalable for higher coverage and longer reads. DCHap is a fast and accurate algorithm for haplotype phasing using third-generation sequencing data. As the third-generation sequencing platforms continue improving on their throughput and read lengths, accurate and scalable tools like DCHap are important to improve haplotype phasing from the advances of sequencing technologies. The source code is freely available at <a href="https://github.com/yanboANU/Haplotype-phasing">https://github.com/yanboANU/Haplotype-phasing</a>.
+								</p>
+								</div>
+							</div>
+						</div>
+						
+					</div>
+				</div>
+
+<!-- 				<div class="col-md-4">
+					<div class="block-heading-two">
+						<h3><span>About ANU-CCG</span></h3>
+					</div>
+					<div class="testimonials">
+						<div class="active item">
+							<blockquote>
+								<p>The Computational Genomics Group at ANU focuses on xxx.</p>
+							</blockquote>
+						</div>
+					</div>
+				</div> -->
+			</div>
+		</div>
+	</div>
+	</section>
+	<div style="height:100px"></div>
+
+	<footer>
+	<div class="container" style="width: 75%;height: 150px;">
+		<div class="row">
+			<div class="col-lg-5">
+				<div class="widget">
+					<img src="img/anu_logo.png">
+					<div style="margin-top:20px"></div>
+					<img src="img/cecs_logo.png" style="width:90%">
+				</div>
+			</div>
+			<div class="col-lg-4">
+				<div class="widget">
+					<h5 class="widgetheading">Our Contact</h5>
+					<address>
+					<strong><a href="http://users.cecs.anu.edu.au/~u1024708/" style="color:#BDBDBD">Dr. Yu Lin</a></strong><br>
+					Lecturer<br>
+					Research School of Computer Science<br>
+					The Australian National University<br>
+					Email: yu.lin AT anu.edu.au<br>
+					Address: R425, HN Building 145, Acton ACT 2601
+					</address>
+				</div>
+			</div>
+			<div class="col-lg-3">
+				<div class="widget">
+					<h5 class="widgetheading">Quick Links</h5>
+					<ul class="link-list">
+						<li><a href="https://www.anu.edu.au/">The Australian National University</a></li>
+						<li><a href="https://cs.anu.edu.au/">Research School of Computer Science</a></li>
+						<li><a href="https://cecs.anu.edu.au/">ANU College of Engineering & Computer Science</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="sub-footer">
+		<div class="container" style="width: 75%">
+			<div class="row" style="height: 10px">
+				<div class="col-lg-6">
+					<div class="copyright">
+						<p>
+							Copyright &copy; 2020. ANU-CGG All rights reserved.
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	</footer>
+</div>
+
+<script>
+	jQuery("#layerslider").layerSlider({
+		responsive: false,
+		responsiveUnder: 1100,
+		layersContainer: 1100,
+		skin: 'fullwidth',
+		hoverPrevNext: false,
+		skinsPath: 'layerslider/skins/'
+	});
+</script>
+
+</script>
+
+<a href="#" class="scrollup"><i class="fa fa-angle-up active"></i></a>
+<!-- javascript
+	================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+<script src="js/jquery.js"></script>
+<script src="js/jquery.easing.1.3.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/jquery.fancybox.pack.js"></script>
+<script src="js/jquery.fancybox-media.js"></script>  
+<script src="js/jquery.flexslider.js"></script>
+<script src="js/animate.js"></script>
+<!-- Vendor Scripts -->
+<script src="js/modernizr.custom.js"></script>
+<script src="js/jquery.isotope.min.js"></script>
+<script src="js/jquery.magnific-popup.min.js"></script>
+<script src="js/animate.js"></script>
+<script src="js/custom.js"></script> 
+
+</body>
+</html>
