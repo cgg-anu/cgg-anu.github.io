@@ -107,6 +107,64 @@
 					</div>
 					<div class="panel-group" id="accordion-alt3">
 
+						<!-- GraphPlas -->
+						<div class="panel">
+							<div class="panel-heading">
+								<h4 class="panel-title">
+									<a data-toggle="collapse" data-parent="#accordion-alt3" href="#collapseEight-alt3">
+										<i class="fa fa-angle-right"></i> [Dec. 2020] Congratulations! Anuradha's work "GraphPlas" was accepted by APBC2021.
+									</a>
+								</h4>
+							</div>
+							<div id="collapseEight-alt3" class="panel-collapse collapse">
+								<div class="panel-body">
+									<p>
+										<strong>Abstract:</strong> Plasmids are extra-chromosomal genetic materials with important markers that affect the function and behaviour of the microorganisms supporting its environmental adaptations. Hence the identification and recovery of such plasmidic sequences from assemblies is a crucial task in metagenomics analysis. In the past, machine learning approaches have been developed to separate chromosomes and plasmids. However, there is always a compromise between precision and recall in the existing classification approaches. The similarity of compositions between chromosomes and their plasmids makes it difficult to separate plasmids and chromosomes with high accuracy. However, high confidence classifications are accurate with a significant compromise of recall, and vice versa. Hence, the requirement exists to have more sophisticated approaches to separate plasmids and chromosomes accurately while retaining an acceptable trade-off between precision and recall. We present GraphPlas, a novel approach for plasmid recovery using coverage, composition and assembly graph topology. We evaluated GraphPlas on simulated and real short read assemblies with varying compositions of plasmids and chromosomes. Our experiments show that GraphPlas is able to significantly improve accuracy in detecting plasmidic and chromosomal contigs on top of popular state-of-the-art plasmid detection tools.<br>
+										<strong>Availability:</strong> The source code is freely available at: <a href="https://github.com/anuradhawick/GraphPlas">https://github.com/anuradhawick/GraphPlas</a>.
+									</p>
+								</div>
+							</div>
+						</div>
+
+						<!-- GraphPlas -->
+						<div class="panel">
+							<div class="panel-heading">
+								<h4 class="panel-title">
+									<a data-toggle="collapse" data-parent="#accordion-alt3" href="#collapseSeven-alt3">
+										<i class="fa fa-angle-right"></i> [Dec. 2020] Congratulations! Jin's work "MultiTrans" was accepted by APBC2021.
+									</a>
+								</h4>
+							</div>
+							<div id="collapseSeven-alt3" class="panel-collapse collapse">
+								<div class="panel-body">
+									<p>
+										<strong>Abstract:</strong> Recent advances in RNA-seq technology have made identification of expressed genes affordable, and thus boosting repaid development of transcriptomic studies. Transcriptome assembly, reconstructing all expressed transcripts from RNA-seq reads, is an essential step to understand gene, protein, and cell functions. Transcriptome assembly remains a challenging problem due to complications in splicing variants, expression level, uneven coverage and sequencing errors. Here, we formulate the transcriptome assembly problem as path extraction on splicing graph (or assembly graph), and propose a novel algorithm MultiTrans for path extraction using mixed integer linear programming. MultiTrans is able to take into consideration coverage constraints on vertices and edges, the number of paths and the paired-end information simultaneously. We benchmarked MultiTrans against two state-of-the-art transcriptome assemblers, TransLiG and rnaSPAdes. Experimental results show that MultiTrans generates more accurate transcripts compared to TransLiG (using the same splicing graph) and rnaSPAdes (using the same assembly graph).<br>
+										<strong>Availability:</strong> The source code is freely available at: <a href="https://github.com/jzbio/MultiTrans">https://github.com/jzbio/MultiTrans</a>.
+									</p>
+								</div>
+							</div>
+						</div>
+
+						<!-- Kmer2SNP -->
+						<div class="panel">
+							<div class="panel-heading">
+								<h4 class="panel-title">
+									<a data-toggle="collapse" data-parent="#accordion-alt3" href="#collapseSix-alt3">
+										<i class="fa fa-angle-right"></i> [Nov. 2020] Congratulations! Yanbo's work "Kmer2SNP" was accepted by BIBM2020.
+									</a>
+								</h4>
+							</div>
+							<div id="collapseSix-alt3" class="panel-collapse collapse">
+								<div class="panel-body">
+									<p>
+										<strong>Abstract:</strong> SNP calling is a fundamental problem of genetic analysis and has many applications, such as gene-disease diagnosis, drug design, and ancestry inference. Prior approaches either require high-quality reference genome, or suffer from low recall/precision or high runtime. We develop a referencefree algorithm Kmer2SNP to call SNP directly from raw reads, an approach that models SNP calling into a maximum weight matching problem. We benchmark Kmer2SNP against referencefree methods including hybrid (assembly-based) and assemblyfree methods on both simulated and real datasets. Experimental results show that Kmer2SNP achieves better SNP calling quality while being an order of magnitude faster than the state-of-theart methods. Kmer2SNP shows the potential of calling SNPs only using k-mers from raw reads without assembly.<br>
+										<strong>Availability:</strong> The source code is freely available at: <a href="https://github.com/yanboANU/Kmer2SNP">https://github.com/yanboANU/Kmer2SNP</a>.
+									</p>
+								</div>
+							</div>
+						</div>
+
+						<!-- GraphBin2 -->
 						<div class="panel">
 							<div class="panel-heading">
 								<h4 class="panel-title">
@@ -197,7 +255,8 @@
 								<!-- Panel body -->
 								<div class="panel-body">
 									<p>
-									The development of DNA sequencing technologies makes it possible to obtain reads originated from both copies of a chromosome (two parental chromosomes, or haplotypes) of a single individual. Reconstruction of both haplotypes (i.e. haplotype phasing) plays a crucial role in genetic analysis and provides relationship information between genetic variation and disease susceptibility. With the emerging third-generation sequencing technologies, most existing approaches for haplotype phasing suffer from performance issues to handle long and error-prone reads. We develop a divide-and-conquer algorithm, DCHap, to phase haplotypes using third-generation reads. We benchmark DCHap against three state-of-the-art phasing tools on both PacBio SMRT data and ONT Nanopore data. The experimental results show that DCHap generates more accurate or comparable results (measured by the switch errors) while being scalable for higher coverage and longer reads. DCHap is a fast and accurate algorithm for haplotype phasing using third-generation sequencing data. As the third-generation sequencing platforms continue improving on their throughput and read lengths, accurate and scalable tools like DCHap are important to improve haplotype phasing from the advances of sequencing technologies. The source code is freely available at <a href="https://github.com/yanboANU/Haplotype-phasing">https://github.com/yanboANU/Haplotype-phasing</a>.
+									The development of DNA sequencing technologies makes it possible to obtain reads originated from both copies of a chromosome (two parental chromosomes, or haplotypes) of a single individual. Reconstruction of both haplotypes (i.e. haplotype phasing) plays a crucial role in genetic analysis and provides relationship information between genetic variation and disease susceptibility. With the emerging third-generation sequencing technologies, most existing approaches for haplotype phasing suffer from performance issues to handle long and error-prone reads. We develop a divide-and-conquer algorithm, DCHap, to phase haplotypes using third-generation reads. We benchmark DCHap against three state-of-the-art phasing tools on both PacBio SMRT data and ONT Nanopore data. The experimental results show that DCHap generates more accurate or comparable results (measured by the switch errors) while being scalable for higher coverage and longer reads. DCHap is a fast and accurate algorithm for haplotype phasing using third-generation sequencing data. As the third-generation sequencing platforms continue improving on their throughput and read lengths, accurate and scalable tools like DCHap are important to improve haplotype phasing from the advances of sequencing technologies.<br>
+									<strong>Availability:</strong> The source code is freely available at <a href="https://github.com/yanboANU/Haplotype-phasing">https://github.com/yanboANU/Haplotype-phasing</a>.
 								</p>
 								</div>
 							</div>
